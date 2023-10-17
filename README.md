@@ -7,7 +7,7 @@ This website contains anime clips or fighting scenes from an anime that I took f
 - Background Sound
 
 # Screenshot
-(https://github.com/YokoHermanto1/AnimeClip/assets/145733702/f61ed0e2-1854-4473-8153-0bf2cf9f7387)
+![Screenshot 2023-10-17 201433](https://github.com/YokoHermanto1/AnimeClip/assets/145733702/373ed23b-f1ba-48cb-aaf6-21f810dda107)
 
 # Note
 Responsive but better when on PC because it is not damaged and there is background music if you want to hear it please download and run
