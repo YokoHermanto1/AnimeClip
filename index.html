@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio control autoplay loop>
+        <source src="/video/backsound1.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="logo-wrapper"><h1 class="logo">FATE</h1></div>
+    <div class="black-bg" onclick="openMenu()"><ion-icon name="menu-outline" class="open-icon" onclick="openMenu()"></ion-icon></div>
+    <nav class="nav-links">
+        <ion-icon name="close-outline" class="close-icon" onclick="closeMenu()"></ion-icon>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="#videos1" class="nav-link">VIDEOS</a></li>
+            <!--------   <li class="nav-item"><a href="#feedback" class="nav-link">FEEDBACK</a></li> -->
+        </ul>
+    </nav>
+    
+<!------Homepage------------>
+
+    <div class="container home-page" id="home">
+ <video src="video/commetmitsuha.mp4" control autoplay muted loop class="background"></video>
+     <div class="heading home">
+            <h1>Yoko Hermanto</h1>
+            <h2>Frontend Developer</h2>
+            <div class="para-wrapper">
+                <p>Playing video games and watching animes , everyday.</p>
+            </div>
+            <div class="hero-btn"><a href="#about"><span></span>Read More</a></div>
+        </div> 
+    </div>
+
+<!------About Page------------>
+    <div class="container about-page" id="about">
+        <div class="about-heading">
+            <h1>About Anime</h1>
+   <!---    <h2>All you need to know about Fate,right here</h2> --->     
+        </div>
+        <div class="about-info">
+            <div class="para-wrapper">
+                <p>Anime is a style of animation that originated in Japan and has become a global phenomenon. 
+                    It encompasses a wide range of genres and themes, appealing to audiences of all ages. 
+                    Here's a brief description of anime:</p>
+            </div>
+            <div class="para-wrapper">
+                <p>Origin and Style: Anime is characterized by its unique and diverse art style, often featuring colorful and exaggerated characters with large eyes. It can be hand-drawn or created using computer-generated imagery (CGI).
+                    Diverse Genres: Anime covers a vast spectrum of genres, from action, adventure, and romance to science fiction, fantasy, horror, and slice of life. This diversity allows for anime to cater to a wide audience.
+                    <br><br>
+                    Target Audience: Anime is not limited to children; it caters to various age groups. There are anime series and films designed for kids, teenagers, and adults. Shonen anime is typically aimed at young boys, while shojo is targeted at young girls. Seinen and josei anime are for adult male and female audiences, respectively.
+                    Cultural Significance: Anime often incorporates elements of Japanese culture and traditions. It can provide insight into Japanese society, history, and mythology, making it a valuable cultural export.
+                    <br><br>
+                    Global Popularity: Anime has gained immense popularity worldwide, with dedicated fan communities and conventions. Successful series like "Naruto," "Dragon Ball," and "Studio Ghibli" films have achieved international acclaim.
+                    Adaptations: Some anime are adaptations of manga (Japanese comics), light novels, or video games. These adaptations help promote the source material and expand the story. 
+                </p>    
+                <div class="hero-btn"><a href="#home" ><span></span>Home</a></div>
+                <div class="hero-btn"><a href="#videos1" ><span></span>First Clip</a></div>
+                <br><br>
+            </div>
+    </div>
+
+    <!-----clips page-->
+    <div class="container insane-clip-page" id="videos1">
+        <video src="video/kny.mp4"control autoplay muted loop class="background"></video>
+        <div class="overlay"></div>
+        <div class="heading insane-heading">
+            <h1>Kimetsu no Yaiba</h1>
+            <h2>Demon Slayer: Kimetsu no Yaiba</h2>
+            <div class="para-wrapper">
+                <p>Tanjiro and Uzui vs Gyutaro -Demon Slayer: Kimetsu no Yaiba [4K 60FPS]
+                </p>
+            </div>
+            <div class="hero-btn"><a href="https://youtu.be/RZsTG9nSlvc?si=ZQ5ClMPM7ADh9bLe" target="_self" ><span></span>Watch!</a></div>
+            <div class="hero-btn"><a href="#home" ><span></span>Home</a></div>
+            <div class="hero-btn"><a href="#videos2" ><span></span>Second Clip</a></div>
+        </div>
+    </div>
+
+    <div class="container insane-clip-page" id="videos2">
+        <video src="video/saberfight.mp4"control autoplay muted loop class="background"></video>
+        <div class="overlay"></div>
+        <div class="heading insane-heading">
+            <h1>Fate/Stay Night</h1>
+            <h2>Fate/Stay Night: Heaven's Feel II Lost Butterfly</h2>
+            <div class="para-wrapper">
+                <p>Saber Alter vs Berserker [4K 60FPS] Full Fight | Fate/Stay Night: Heaven's Feel II Lost Butterfly</p>
+            </div>
+            <div class="hero-btn"><a href="https://www.youtube.com/embed/OGGLjPJTH7M?autoplay=1" target="_self" ><span></span>Watch!</a></div>
+            <div class="hero-btn"><a href="#videos1" ><span></span>First Clip</a></div>
+            <div class="hero-btn"><a href="#videos3" ><span></span>Third Clip</a></div>
+        </div>
+    </div>
+
+    <!------feedback page-->
+    <!---------
+    <div class="container feedback-page" id="feedback">
+        <div class="about-heading feedback-heading">
+            <h1>Feedback!</h1>
+            <h2>What do you think of me?</h2>
+            <div class="para-wrapper">
+                <p>lorkeoareaoirjaeiorjioaejrijaeirojaeirojreaji
+                    lkajeljdkajdjawkldjawlkdjkalwjdkjawldjakwd
+                </p>
+            </div>
+        </div>
+        <div class="form-wrapper">
+            <div class="form-box">
+                <form class="form">
+                    <div class="text" placeholder="Name">Name</div>
+                    <div class="email" placeholder="Email">Email</div>
+                    <div class="number" max="10" min="1" placeholder="Rating">Rating</div>
+                    <textarea rows="10" placeholder="Feedback?"></textarea>
+                </form>
+                <div class="hero-btn submit"><a href="#" type="submit"><span></span>SUBMIT</a></div>
+            </div>
+        </div>
+    </div> ---------->
+
+    <!------footer page-->
+   <!--- <div class="footer">
+        <div class="footer-info">
+            <p>Made with love.</p>
+        </div>
+    </div>
+---->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
