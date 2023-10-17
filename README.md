@@ -3,9 +3,7 @@ This website contains anime clips or fighting scenes from an anime that I took f
 
 # Provide
 - Video Background
-<br>
 - Image
-<br>
 - Background Sound
 
 # Screenshot
